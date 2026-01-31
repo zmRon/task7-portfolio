@@ -3,128 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
+    <div class="container">
+        <h2 class="title">Login</h2>
 
-    <header class="profile-header">
-        <div class="profile-left">
-            <img src="assets/1x1.png" alt="Profile Picture" class="profile-img">
-            <div>
-                <h1>Ron Francis V. Zamora<span class="pronouns"> He/Him</span></h1>
-                <p class="title">IT Student</p>
-                <p class="location">📍 Davao City, Philippines</p>
-                <div class="links">
-                    <a href="mailto:zamoraronfrancis@gmail.com" target="_blank" class="pill-link">
-                        <i class="fa-regular fa-envelope"></i> zamoraronfrancis@gmail.com
-                    </a>
-                    <a href="https://github.com/zmRon" target="_blank" class="pill-link">
-                        <i class="fa-brands fa-github"></i> Github
-                    </a>
-                    <a href="https://www.facebook.com/ronaeyyy" target="_blank" class="pill-link">
-                        <i class="fa-brands fa-facebook-f"></i> Facebook
-                    </a>
-                    <a href="https://www.instagram.com/ronaeyyy/" target="_blank" class="pill-link">
-                        <i class="fa-brands fa-instagram"></i> Instagram
-                    </a>
-                </div>
-            </div>
-        </div>
-    </header>
+        <label class="label">Email</label>
+        <input type="email" class="input" placeholder="Enter your email">
 
-<main class="container">
+        <label class="label">Password</label>
+        <input type="password" class="input" placeholder="Enter your password">
 
-    <section class="card">
-        <h2><i class="fa-regular fa-circle-user"></i> About Me</h2>
-        <p>
-            I'm a BS Information Technology student currently studying in University of Mindanao, with a growing interest in front-end development.
+        <button class="btn" onclick="location.href='portfolio.html'">Login</button>
+
+        <p class="text">
+            Don't have an account?
+            <a href="register.html" class="link">Register</a>
         </p>
-        <p>
-            I’m currently learning new technologies to improve my skills and work on projects that prepare me for real-world applications.
-        </p>
-    </section>
-
-    <section class="card">
-        <h2><i class="fa-solid fa-briefcase"></i> Academic Background</h2>
-
-        <div class="experience-item">
-            <h3>Bachelor of Science in Information Technology</h3>
-            <p class="school">College - University of Mindanao</p>
-            <span class="date">2024 - Present</span>
-        </div>
-
-        <div class="experience-item">
-            <h3>Science, Technology, Engineering, Mathematics (STEM)</h3>
-            <p class="school">Senior High School - Pablo Lorenzo National High School</p>
-            <span class="date">2022 - 2024</span>
-        </div>
-    </section>
-
-    <section class="card">
-        <h2><i class="fa-solid fa-microchip"></i> Tech Stack</h2>
-
-        <h4>Frontend</h4>
-        <div class="tags">
-            <span>HTML</span>
-            <span>CSS</span>
-        </div>
-
-        <h4>Backend</h4>
-        <div class="tags">
-            <span>Java</span>
-            <span>Python</span>
-            <span>MySQL</span>
-        </div>
-
-        <h4>Developer Tools</h4>
-        <div class="tags">
-            <span>GitHub</span>
-            <span>VSCode</span>
-            <span>Discord</span>
-        </div>
-    </section>
-
-        <section class="card">
-            <h2><i class="fa-solid fa-universal-access"></i> Hobbies</h2>
-
-            <h4>Technology</h4>
-            <p>I am passionate about exploring new technologies and improving my skills through programming tutorials.</p>
-
-            <h4>Gaming</h4>
-            <p>I enjoy RPGs, MOBAs, and shooting games as a way to relax and unwind.</p>
-
-            <h4>Music</h4>
-            <p>I enjoy all kinds of music, though I mostly listen to OPM and pop.</p>
-        </section>
-
-        <section class="card">
-            <h2><i class="fa-solid fa-atom"></i> Certifications</h2>
-            <ul>
-                <li><a href="https://drive.google.com/file/d/1GAOb18rx9rGfY3n-RbwjJg_sMO4PsGpL/view?usp=sharing" target="_blank"> Information Technology Specialist - Java</a></li>
-            </ul>
-        </section>
-
-        <section class="card">
-            <h2><i class="fa-solid fa-laptop-code"></i></i> Projects</h2>
-
-            <div class="project">
-                <h3>Personal Portfolio</h3>
-                <p>A portfolio website built using HTML and CSS.</p>
-            </div>
-
-            <div class="project">
-                <h3>Local Projects</h3>
-                <p>Library Management System (Java) <br> Airline Ticket Reservation System (Python) <br> BMI Tracker with Database and Transaction Handling (Python/SQLIte)</p>
-            </div>
-        </section>
-
-</main>
-
-<footer>
-    <p>© 2026 Ron Francis V. Zamora. All rights reserved.</p>
-</footer>
-
+    </div>
 </body>
 </html>
